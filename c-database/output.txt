@@ -1,0 +1,329 @@
+Script started on Wed 30 Mar 2022 08:25:44 PM HST
+]0;waylonho@uhx02:~/project1[?1034huhx02:/home/w/waylonho/project1% ./project
+
+Welcome to the bank. Please type one of the functions below and hit Enter. Depending on your input, there may be further details asked.
+
+add: Add a new bank record.
+printall: Display all bank records.
+find: Search for a certain bank record.
+delete: Delete a bank record.
+quit: Quit the program.
+
+Enter a function: printall
+
+Account #: 100
+Account Name: Waylon Ho
+Address: 9999 Real Avenue, 96817, Honolulu, HI
+
+Account #: 300
+Account Name: Ravi
+Address: 1800 UH Manoa St
+
+Account #: 300
+Account Name: James Bond
+Address: 8888 Fake Rd. 968127, Hon, Hawaii
+
+Enter a function: delete
+
+Enter an account #: 300
+
+Enter a function: delete
+
+Enter an account #: 100
+
+Enter a function: printall
+
+There are no records in the database.
+
+Enter a function: add
+
+Enter an account #: notanumber
+
+Please enter an INT.
+
+Enter an account #: -30
+
+Please enter an int greater than 0.
+
+Enter an account #: 100
+
+Please enter a name: Way   John Doe
+
+Please enter an address (if shorter than 50 characters, put ; at the end). Ex: 1234 Hawaii Avenue; : 345 Random R        Rainbow Road
+3 Somewhere 19385;
+
+Enter a function: print     add
+
+Enter an account #: 200
+
+Please enter a name: J Jo  Bob   Bob D Doe   Smith
+
+Please enter an address (if shorter than 50 characters, put ; at the end). Ex: 1234 Hawaii Avenue; : 918 Real Avenue;
+
+Enter a function: printall
+
+Account #: 100
+Account Name: John Doe
+Address: 345 Rainbow Road
+Somewhere 19385
+
+Account #: 200
+Account Name: Bob Smith
+Address: 918 Real Avenue
+
+Enter a function: add   add
+
+Enter an account #: 50
+
+Please enter a name: Joh   Ro  Jerry     Jerry Tom
+
+Please enter an address (if shorter than 50 characters, put ; at the end). Ex: 1234 Hawaii Avenue; : 000 Fake Blvd;
+
+Enter a function: prin
+
+Account #: 50
+Account Name: Jerry Tom
+Address: 000 Fake Blvd
+
+Account #: 100
+Account Name: John Doe
+Address: 345 Rainbow Road
+Somewhere 19385
+
+Account #: 200
+Account Name: Bob Smith
+Address: 918 Real Avenue
+
+Enter a function: del
+
+Enter an account #: notanumber
+
+Please enter an INT.
+
+Enter an account #: -20
+
+Please enter an int greater than 0.
+
+Enter an account #: 50
+
+Enter a function: delete
+
+Enter an account #: 200
+
+Enter a function: prin
+
+Account #: 100
+Account Name: John Doe
+Address: 345 Rainbow Road
+Somewhere 19385
+
+Enter a function: find
+
+Enter an account #: 200   notanumber
+
+Please enter an INT.
+
+Enter an account #: -39
+
+Please enter an int greater than 0.
+
+Enter an account #: 400
+
+Found no record with account #: 400
+
+Enter a function: find
+
+Enter an account #: 100
+
+Account #: 100
+Name: John Doe
+Address: 345 Rainbow Road
+Somewhere 19385
+
+Enter a function: add
+
+Enter an account #: 3 200
+
+Please enter a name: Ravi      Mick    Yoda
+
+Please enter an address (if shorter than 50 characters, put ; at the end). Ex: 1234 Hawaii Avenue; : 5555 The Force;
+
+Enter a function: print     del
+
+Enter an account #: 500
+
+Enter a function: printall
+
+Account #: 100
+Account Name: John Doe
+Address: 345 Rainbow Road
+Somewhere 19385
+
+Account #: 200
+Account Name: Yoda
+Address: 5555 The Force
+
+Enter a function: del
+
+Enter an account #: 100
+
+Enter a function: del
+
+Enter an account #: notanumber
+
+Please enter an INT.
+
+Enter an account #: -30
+
+Please enter an int greater than 0.
+
+Enter an account #: 23
+
+Enter a function: print
+
+Account #: 200
+Account Name: Yoda
+Address: 5555 The Force
+
+Enter a function: quit
+]0;waylonho@uhx02:~/project1uhx02:/home/w/waylonho/project1% ./project nottherightwayto[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KincorrectDebug
+Not a valid mode to launch the program. Please relaunch appropiately.
+]0;waylonho@uhx02:~/project1uhx02:/home/w/waylonho/project1% ./po[Kroject debug
+
+Running addRecord...
+Account #: 100
+Name: Waylon Ho
+Address: 9999 Real Avenue, 96817, Honolulu, HI
+
+Running addRecord...
+Account #: 300
+Name: James Bond
+Address: 8888 Fake Rd. 968127, Hon, Hawaii
+
+Running addRecord...
+Account #: 300
+Name: Ravi
+Address: 1800 UH Manoa St
+Amount of records loaded from readfile: 3
+
+Welcome to the bank. Please type one of the functions below and hit Enter. Depending on your input, there may be further details asked.
+
+add: Add a new bank record.
+printall: Display all bank records.
+find: Search for a certain bank record.
+delete: Delete a bank record.
+quit: Quit the program.
+
+Enter a function: find
+
+Enter an account #: 300
+
+Running findRecord...
+Account #: 300
+
+Account #: 300
+Name: Ravi
+Address: 1800 UH Manoa St
+
+Account #: 300
+Name: James Bond
+Address: 8888 Fake Rd. 968127, Hon, Hawaii
+
+Enter a function: delete
+
+Enter an account #: 100
+
+Running deleteRecord...
+Account #: 100
+
+Enter a function: prin
+
+Running printAllRecords...
+
+Account #: 300
+Account Name: Ravi
+Address: 1800 UH Manoa St
+
+Account #: 300
+Account Name: James Bond
+Address: 8888 Fake Rd. 968127, Hon, Hawaii
+
+Enter a function: add
+
+Enter an account #: 200
+
+Please enter a name: Waylon
+
+Please enter an address (if shorter than 50 characters, put ; at the end). Ex: 1234 Hawaii Avenue; : 5555 r^HR      Real Rd;
+
+Running addRecord...
+Account #: 200
+Name: Waylon
+Address: 5555 Real Rd
+
+Enter a function: print
+
+Running printAllRecords...
+
+Account #: 200
+Account Name: Waylon
+Address: 5555 Real Rd
+
+Account #: 300
+Account Name: Ravi
+Address: 1800 UH Manoa St
+
+Account #: 300
+Account Name: James Bond
+Address: 8888 Fake Rd. 968127, Hon, Hawaii
+
+Enter a function: del
+
+Enter an account #: 300
+
+Running deleteRecord...
+Account #: 300
+
+Enter a function: print
+
+Running printAllRecords...
+
+Account #: 200
+Account Name: Waylon
+Address: 5555 Real Rd
+
+Enter a function: add
+
+Enter an account #: 300
+
+Please enter a name: Tetsuya
+
+Please enter an address (if shorter than 50 characters, put ; at the end). Ex: 1234 Hawaii Avenue; : 8 1234 Final Desi    Destination;
+
+Running addRecord...
+Account #: 300
+Name: Tetsuya
+Address: 1234 Final Destination
+
+Enter a function: print
+
+Running printAllRecords...
+
+Account #: 200
+Account Name: Waylon
+Address: 5555 Real Rd
+
+Account #: 300
+Account Name: Tetsuya
+Address: 1234 Final Destination
+
+Enter a function: quit
+
+Running writefile...
+There were 2 records in database
+]0;waylonho@uhx02:~/project1uhx02:/home/w/waylonho/project1% stop
+bash: stop: command not found
+]0;waylonho@uhx02:~/project1uhx02:/home/w/waylonho/project1% exit
+exit
+
+Script done on Wed 30 Mar 2022 08:31:50 PM HST

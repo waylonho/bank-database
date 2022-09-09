@@ -1,0 +1,64 @@
+Script started on Sat 23 Apr 2022 09:57:19 PM HST
+]0;waylonho@uhx02:~/project2[?1034huhx02:/home/w/waylonho/project2% touch *.cpp
+]0;waylonho@uhx02:~/project2uhx02:/home/w/waylonho/project2% touch *.cpp[7Pexitmake -f release.mak[8Ptouch *.cppmake -f debug.mak[6Ptouch *.cpp[7Pexitstopquittouch #.cmake -f release.makls[Kmake -f release.mak[C[1P.mak[1P.mak[1P.mak[1P.mak[1P.mak[1P.mak[1P.makd.make.makb.maku.makg.mak
+g++ -ansi -pedantic-errors -Wall -D debug -c user_interface.cpp
+g++ -ansi -pedantic-errors -Wall -D debug -c llist.cpp
+g++ -o project_debug llist.o user_interface.o
+make: `debug.mak' is up to date.
+]0;waylonho@uhx02:~/project2uhx02:/home/w/waylonho/project2% ./project_debug
+
+Running in debug mode...
+
+Welcome to the bank. Please type one of the functions below and hit Enter.
+
+add: Add a new bank record.
+printall: Display all bank records.
+find: Search for a certain bank record.
+delete: Delete a bank record.
+quit: Quit the program.
+
+Enter a function: p add
+
+Enter an account #: 100
+
+Please enter a name: John
+
+Enter an address (if longer than 50 characters, end it with ;. Ex: 123 Fake Ave;): 123 Real Avel ;
+
+Running addRecord...
+Account No: 100
+Name: John
+Address: 123 Real Ave
+
+Enter a function: p quit    quit
+
+Running cleanup...
+]0;waylonho@uhx02:~/project2uhx02:/home/w/waylonho/project2% touch*cpp[K[K[K[K *.cpp
+]0;waylonho@uhx02:~/project2uhx02:/home/w/waylonho/project2% touch *.cpp./project_debugmake -f debug.mak[1P.mak[1P.mak[1P.mak[1P.mak[1P.makr.make.makl.make.maka.maks.make.mak
+g++ -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -o project llist.o user_interface.o
+make: `release.mak' is up to date.
+]0;waylonho@uhx02:~/project2uhx02:/home/w/waylonho/project2% ./project
+
+Welcome to the bank. Please type one of the functions below and hit Enter.
+
+add: Add a new bank record.
+printall: Display all bank records.
+find: Search for a certain bank record.
+delete: Delete a bank record.
+quit: Quit the program.
+
+Enter a function: add
+
+Enter an account #: 100
+
+Please enter a name: John Jr.
+
+Enter an address (if longer than 50 characters, end it with ;. Ex: 123 Fake Ave;): 321 R^HF      Fake Ave;
+
+Enter a function: quit
+]0;waylonho@uhx02:~/project2uhx02:/home/w/waylonho/project2% exit
+exit
+
+Script done on Sat 23 Apr 2022 09:58:58 PM HST

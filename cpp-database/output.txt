@@ -1,0 +1,161 @@
+Script started on Sat 23 Apr 2022 10:08:42 PM HST
+]0;waylonho@uhx02:~/project2[?1034huhx02:/home/w/waylonho/project2% ./project
+
+Welcome to the bank. Please type one of the functions below and hit Enter.
+
+add: Add a new bank record.
+printall: Display all bank records.
+find: Search for a certain bank record.
+delete: Delete a bank record.
+quit: Quit the program.
+
+Enter a function: add
+
+Enter an account #: 100
+
+Please enter a name: John
+
+Enter an address (if longer than 50 characters, end it with ;. Ex: 123 Fake Ave;): Real Ave;
+
+Enter a function: print
+
+Account #: 100
+Name: John
+Address: Real Ave
+
+Enter a function: ad
+
+Enter an account #: 200
+
+Please enter a name: Bill
+
+Enter an address (if longer than 50 characters, end it with ;. Ex: 123 Fake Ave;): 321     Fake St;
+
+Enter a function: prin
+
+Account #: 100
+Name: John
+Address: Real Ave
+Account #: 200
+Name: Bill
+Address: Fake St
+
+Enter a function: fin
+
+Enter an account #: 300
+
+No record was found with account #: 300
+
+Enter a function: fin
+
+Enter an account #: 200
+
+Account #: 200
+Name: Bill
+Address: Fake St
+
+Enter a function: del
+
+Enter an account #: 100
+
+Enter a function: p
+
+Account #: 200
+Name: Bill
+Address: Fake St
+
+Enter a function: quit
+]0;waylonho@uhx02:~/project2uhx02:/home/w/waylonho/project2% ./[K[K./project_debug
+
+Running in debug mode...
+
+Welcome to the bank. Please type one of the functions below and hit Enter.
+
+add: Add a new bank record.
+printall: Display all bank records.
+find: Search for a certain bank record.
+delete: Delete a bank record.
+quit: Quit the program.
+
+Enter a function: add
+
+Enter an account #: 100
+
+Please enter a name: John 
+
+Enter an address (if longer than 50 characters, end it with ;. Ex: 123 Fake Ave;): 808 Fake ave  ^HAv       Ave;
+
+Running addRecord...
+Account No: 100
+Name: John 
+Address: 808 Fake Ave
+
+Enter a function: del
+
+Enter an account #: 300
+
+Running deleteRecord...
+Deleting Account No: 300
+
+Enter a function: d del   add
+
+Enter an account #: 50
+
+Please enter a name: john    bill
+
+Enter an address (if longer than 50 characters, end it with ;. Ex: 123 Fake Ave;): 808 hawaii rd;
+
+Running addRecord...
+Account No: 50
+Name: bill
+Address: 808 hawaii rd
+
+Enter a function: pr
+
+Running printAllRecords...
+
+Account #: 50
+Name: bill
+Address: 808 hawaii rd
+Account #: 100
+Name: John 
+Address: 808 Fake Ave
+
+Enter a function: del
+
+Enter an account #: 50
+
+Running deleteRecord...
+Deleting Account No: 50
+
+Enter a function: find
+
+Enter an account #: 500   500
+
+Running findRecord...
+Searching for Account No: 500
+
+No record was found with account #: 500
+
+Enter a function: 300
+
+Invalid input. Please type an option(Ex. add, delete, etc.)
+
+Enter a function: find    find    find
+
+Enter an account #: 100
+
+Running findRecord...
+Searching for Account No: 100
+
+Account #: 100
+Name: John 
+Address: 808 Fake Ave
+
+Enter a function: quit
+
+Running cleanup...
+]0;waylonho@uhx02:~/project2uhx02:/home/w/waylonho/project2% exit
+exit
+
+Script done on Sat 23 Apr 2022 10:11:39 PM HST
